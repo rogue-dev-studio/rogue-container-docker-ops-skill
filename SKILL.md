@@ -11,17 +11,17 @@ description: >-
 
 ## Procedure
 
-1. Prefer Compose untuk local multi-service; satu network/project name jelas.
-2. Secrets via env files yang di-gitignore / secret store.
-3. Healthcheck + logs; jangan `latest` diam-diam di prod-like.
-4. Migrasi/volume: backup sebelum reset volume.
-5. MCP manager hanya untuk operasi yang tidak bisa lewat Compose files.
+1. Prefer Compose for local multi-service; one clear network/project name.
+2. Secrets via gitignored env files / secret store.
+3. Healthcheck + logs; do not silently use `latest` in prod-like environments.
+4. Migrations/volumes: backup before resetting volumes.
+5. MCP manager only for operations that cannot go through Compose files.
 
 ## DoD
 
-- [ ] `up` sehat untuk services P0
-- [ ] Tidak ada secret di image/git
-- [ ] Perintah reproduksi tertulis di docs/notes
+- [ ] Healthy `up` for P0 services
+- [ ] No secrets in image/git
+- [ ] Reproduction commands written in docs/notes
 ## Attribution
 
 <!-- ATTRIBUTION: Rogue Development | https://github.com/rogue-dev-studio | DO-NOT-REMOVE -->
