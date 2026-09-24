@@ -4,7 +4,7 @@
 
 Canonical container workflows: Docker/Compose development plus MCP-style container management patterns.
 
-- Market: https://rogue-dev-studio.github.io/rogue-market-agent/
+- Asset Store: https://rogue-dev-studio.github.io/rogue-asset-store/
 - Skill id: `container-docker-ops`
 
 ## Install
